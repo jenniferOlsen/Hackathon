@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE10F6C21B643C7B006FC743 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE10F6C11B643C7B006FC743 /* Main.storyboard */; };
 		DE5C0AFB1B6410AF00C7D69C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5C0AFA1B6410AF00C7D69C /* main.m */; };
 		DE5C0AFE1B6410AF00C7D69C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5C0AFD1B6410AF00C7D69C /* AppDelegate.m */; };
 		DE5C0B011B6410AF00C7D69C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5C0B001B6410AF00C7D69C /* ViewController.m */; };
-		DE5C0B041B6410AF00C7D69C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE5C0B021B6410AF00C7D69C /* Main.storyboard */; };
 		DE5C0B061B6410AF00C7D69C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE5C0B051B6410AF00C7D69C /* Images.xcassets */; };
 		DE5C0B091B6410AF00C7D69C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE5C0B071B6410AF00C7D69C /* LaunchScreen.xib */; };
 		DE5C0B151B6410AF00C7D69C /* CodivaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5C0B141B6410AF00C7D69C /* CodivaTests.m */; };
@@ -27,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE10F6C11B643C7B006FC743 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		DE5C0AF51B6410AF00C7D69C /* Codiva.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Codiva.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE5C0AF91B6410AF00C7D69C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE5C0AFA1B6410AF00C7D69C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -34,7 +35,6 @@
 		DE5C0AFD1B6410AF00C7D69C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		DE5C0AFF1B6410AF00C7D69C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		DE5C0B001B6410AF00C7D69C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		DE5C0B031B6410AF00C7D69C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DE5C0B051B6410AF00C7D69C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DE5C0B081B6410AF00C7D69C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		DE5C0B0E1B6410AF00C7D69C /* CodivaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodivaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,8 +84,8 @@
 				DE5C0AFC1B6410AF00C7D69C /* AppDelegate.h */,
 				DE5C0AFD1B6410AF00C7D69C /* AppDelegate.m */,
 				DE5C0AFF1B6410AF00C7D69C /* ViewController.h */,
+				DE10F6C11B643C7B006FC743 /* Main.storyboard */,
 				DE5C0B001B6410AF00C7D69C /* ViewController.m */,
-				DE5C0B021B6410AF00C7D69C /* Main.storyboard */,
 				DE5C0B051B6410AF00C7D69C /* Images.xcassets */,
 				DE5C0B071B6410AF00C7D69C /* LaunchScreen.xib */,
 				DE5C0AF81B6410AF00C7D69C /* Supporting Files */,
@@ -199,7 +199,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE5C0B041B6410AF00C7D69C /* Main.storyboard in Resources */,
+				DE10F6C21B643C7B006FC743 /* Main.storyboard in Resources */,
 				DE5C0B091B6410AF00C7D69C /* LaunchScreen.xib in Resources */,
 				DE5C0B061B6410AF00C7D69C /* Images.xcassets in Resources */,
 			);
@@ -244,14 +244,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DE5C0B021B6410AF00C7D69C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DE5C0B031B6410AF00C7D69C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DE5C0B071B6410AF00C7D69C /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -416,6 +408,7 @@
 				DE5C0B1A1B6410AF00C7D69C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE5C0B1B1B6410AF00C7D69C /* Build configuration list for PBXNativeTarget "CodivaTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +417,7 @@
 				DE5C0B1D1B6410AF00C7D69C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
