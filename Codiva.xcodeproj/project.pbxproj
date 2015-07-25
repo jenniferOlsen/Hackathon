@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE5C0AFB1B6410AF00C7D69C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5C0AFA1B6410AF00C7D69C /* main.m */; };
+		DE5C0AFE1B6410AF00C7D69C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5C0AFD1B6410AF00C7D69C /* AppDelegate.m */; };
+		DE5C0B011B6410AF00C7D69C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5C0B001B6410AF00C7D69C /* ViewController.m */; };
+		DE5C0B041B6410AF00C7D69C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE5C0B021B6410AF00C7D69C /* Main.storyboard */; };
+		DE5C0B061B6410AF00C7D69C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE5C0B051B6410AF00C7D69C /* Images.xcassets */; };
+		DE5C0B091B6410AF00C7D69C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE5C0B071B6410AF00C7D69C /* LaunchScreen.xib */; };
+		DE5C0B151B6410AF00C7D69C /* CodivaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5C0B141B6410AF00C7D69C /* CodivaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE5C0B0F1B6410AF00C7D69C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE5C0AED1B6410AF00C7D69C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE5C0AF41B6410AF00C7D69C;
+			remoteInfo = Codiva;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE5C0AF51B6410AF00C7D69C /* Codiva.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Codiva.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE5C0AF91B6410AF00C7D69C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE5C0AFA1B6410AF00C7D69C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE5C0AFC1B6410AF00C7D69C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE5C0AFD1B6410AF00C7D69C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE5C0AFF1B6410AF00C7D69C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DE5C0B001B6410AF00C7D69C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DE5C0B031B6410AF00C7D69C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE5C0B051B6410AF00C7D69C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DE5C0B081B6410AF00C7D69C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DE5C0B0E1B6410AF00C7D69C /* CodivaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodivaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE5C0B131B6410AF00C7D69C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE5C0B141B6410AF00C7D69C /* CodivaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodivaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE5C0AF21B6410AF00C7D69C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE5C0B0B1B6410AF00C7D69C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE5C0AEC1B6410AF00C7D69C = {
+			isa = PBXGroup;
+			children = (
+				DE5C0AF71B6410AF00C7D69C /* Codiva */,
+				DE5C0B111B6410AF00C7D69C /* CodivaTests */,
+				DE5C0AF61B6410AF00C7D69C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE5C0AF61B6410AF00C7D69C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE5C0AF51B6410AF00C7D69C /* Codiva.app */,
+				DE5C0B0E1B6410AF00C7D69C /* CodivaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE5C0AF71B6410AF00C7D69C /* Codiva */ = {
+			isa = PBXGroup;
+			children = (
+				DE5C0AFC1B6410AF00C7D69C /* AppDelegate.h */,
+				DE5C0AFD1B6410AF00C7D69C /* AppDelegate.m */,
+				DE5C0AFF1B6410AF00C7D69C /* ViewController.h */,
+				DE5C0B001B6410AF00C7D69C /* ViewController.m */,
+				DE5C0B021B6410AF00C7D69C /* Main.storyboard */,
+				DE5C0B051B6410AF00C7D69C /* Images.xcassets */,
+				DE5C0B071B6410AF00C7D69C /* LaunchScreen.xib */,
+				DE5C0AF81B6410AF00C7D69C /* Supporting Files */,
+			);
+			path = Codiva;
+			sourceTree = "<group>";
+		};
+		DE5C0AF81B6410AF00C7D69C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE5C0AF91B6410AF00C7D69C /* Info.plist */,
+				DE5C0AFA1B6410AF00C7D69C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE5C0B111B6410AF00C7D69C /* CodivaTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE5C0B141B6410AF00C7D69C /* CodivaTests.m */,
+				DE5C0B121B6410AF00C7D69C /* Supporting Files */,
+			);
+			path = CodivaTests;
+			sourceTree = "<group>";
+		};
+		DE5C0B121B6410AF00C7D69C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE5C0B131B6410AF00C7D69C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE5C0AF41B6410AF00C7D69C /* Codiva */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE5C0B181B6410AF00C7D69C /* Build configuration list for PBXNativeTarget "Codiva" */;
+			buildPhases = (
+				DE5C0AF11B6410AF00C7D69C /* Sources */,
+				DE5C0AF21B6410AF00C7D69C /* Frameworks */,
+				DE5C0AF31B6410AF00C7D69C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Codiva;
+			productName = Codiva;
+			productReference = DE5C0AF51B6410AF00C7D69C /* Codiva.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE5C0B0D1B6410AF00C7D69C /* CodivaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE5C0B1B1B6410AF00C7D69C /* Build configuration list for PBXNativeTarget "CodivaTests" */;
+			buildPhases = (
+				DE5C0B0A1B6410AF00C7D69C /* Sources */,
+				DE5C0B0B1B6410AF00C7D69C /* Frameworks */,
+				DE5C0B0C1B6410AF00C7D69C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE5C0B101B6410AF00C7D69C /* PBXTargetDependency */,
+			);
+			name = CodivaTests;
+			productName = CodivaTests;
+			productReference = DE5C0B0E1B6410AF00C7D69C /* CodivaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE5C0AED1B6410AF00C7D69C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "team 6";
+				TargetAttributes = {
+					DE5C0AF41B6410AF00C7D69C = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					DE5C0B0D1B6410AF00C7D69C = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = DE5C0AF41B6410AF00C7D69C;
+					};
+				};
+			};
+			buildConfigurationList = DE5C0AF01B6410AF00C7D69C /* Build configuration list for PBXProject "Codiva" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE5C0AEC1B6410AF00C7D69C;
+			productRefGroup = DE5C0AF61B6410AF00C7D69C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE5C0AF41B6410AF00C7D69C /* Codiva */,
+				DE5C0B0D1B6410AF00C7D69C /* CodivaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE5C0AF31B6410AF00C7D69C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE5C0B041B6410AF00C7D69C /* Main.storyboard in Resources */,
+				DE5C0B091B6410AF00C7D69C /* LaunchScreen.xib in Resources */,
+				DE5C0B061B6410AF00C7D69C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE5C0B0C1B6410AF00C7D69C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE5C0AF11B6410AF00C7D69C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE5C0B011B6410AF00C7D69C /* ViewController.m in Sources */,
+				DE5C0AFE1B6410AF00C7D69C /* AppDelegate.m in Sources */,
+				DE5C0AFB1B6410AF00C7D69C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE5C0B0A1B6410AF00C7D69C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE5C0B151B6410AF00C7D69C /* CodivaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE5C0B101B6410AF00C7D69C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE5C0AF41B6410AF00C7D69C /* Codiva */;
+			targetProxy = DE5C0B0F1B6410AF00C7D69C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE5C0B021B6410AF00C7D69C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE5C0B031B6410AF00C7D69C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE5C0B071B6410AF00C7D69C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE5C0B081B6410AF00C7D69C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE5C0B161B6410AF00C7D69C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE5C0B171B6410AF00C7D69C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE5C0B191B6410AF00C7D69C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Codiva/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DE5C0B1A1B6410AF00C7D69C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Codiva/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DE5C0B1C1B6410AF00C7D69C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CodivaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Codiva.app/Codiva";
+			};
+			name = Debug;
+		};
+		DE5C0B1D1B6410AF00C7D69C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CodivaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Codiva.app/Codiva";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE5C0AF01B6410AF00C7D69C /* Build configuration list for PBXProject "Codiva" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE5C0B161B6410AF00C7D69C /* Debug */,
+				DE5C0B171B6410AF00C7D69C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE5C0B181B6410AF00C7D69C /* Build configuration list for PBXNativeTarget "Codiva" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE5C0B191B6410AF00C7D69C /* Debug */,
+				DE5C0B1A1B6410AF00C7D69C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DE5C0B1B1B6410AF00C7D69C /* Build configuration list for PBXNativeTarget "CodivaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE5C0B1C1B6410AF00C7D69C /* Debug */,
+				DE5C0B1D1B6410AF00C7D69C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE5C0AED1B6410AF00C7D69C /* Project object */;
+}
